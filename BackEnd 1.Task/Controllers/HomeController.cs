@@ -2,8 +2,10 @@
 using BackEnd_1.Task.Models;
 using BackEnd_1.Task.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace BackEnd_1.Task.Controllers
 {
@@ -11,16 +13,13 @@ namespace BackEnd_1.Task.Controllers
     {
         private readonly AppDbContext _context;
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         { 
-            List<Slider> sliders = _context.Sliders.ToList();
-            List<Card> cards = _context.Cards.ToList();
-
-
             HomeVM model = new HomeVM
             {
-                Sliders = sliders,
-                Cards = cards,
+                Sliders = await _context.Sliders.ToListAsync(),
+                Cards = await _context.Cards.ToListAsync(),
+                Plants = await _context.Plants.Include(p=>p.PlantImages).ToListAsync(),
             };
             return View(model);
         }
