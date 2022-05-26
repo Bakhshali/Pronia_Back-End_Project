@@ -28,16 +28,49 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
 
         public IActionResult Create()
         {
-            return Json("Create");
+            return View();
         }
-        public IActionResult Detail(int id)
-        {
-            return Json(id);
-        }
-        public IActionResult Edit(int id)
-        {
-            return Json(id);
+        [HttpPost]
 
+        public async Task<IActionResult> Create(Models.Size size)
+        {
+            if(!ModelState.IsValid) return View();
+
+            await _context.AddAsync(size);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> Detail(int id)
+        {
+            Models.Size size = await _context.Sizes.FirstOrDefaultAsync(s=>s.Id==id);
+            if(size==null) return NotFound();
+            return View(size);
+        }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            Models.Size size = await _context.Sizes.FirstOrDefaultAsync(s=>s.Id==id);
+            if(size == null) return NotFound();
+            return View(size);
+
+        }
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+
+        public async Task<IActionResult> Edit(int id, Models.Size size)
+        {
+            Models.Size existedSize = await _context.Sizes.FirstOrDefaultAsync(s=>s.Id == id);
+            {
+                if(existedSize==null) return NotFound();
+                if(id != existedSize.Id) return BadRequest();
+                existedSize.Name = size.Name;
+
+                await _context.SaveChangesAsync();
+                
+                return RedirectToAction(nameof(Index));
+
+
+            }
         }
         public IActionResult Delete(int id)
         {

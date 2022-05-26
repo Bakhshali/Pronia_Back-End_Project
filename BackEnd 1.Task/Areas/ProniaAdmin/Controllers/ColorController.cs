@@ -27,15 +27,45 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
 
         public IActionResult Create()
         {
-            return Json("Create");
+            return View();
         }
-        public IActionResult Detail(int id)
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Models.Color color)
         {
-            return Json(id);
+            await _context.Colors.AddAsync(color);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
-        public IActionResult Edit(int id)
+
+        public async Task<IActionResult> Detail(int id)
         {
-            return Json(id);
+            Models.Color color = await _context.Colors.FirstOrDefaultAsync(c=>c.Id == id);
+            if(color == null) return NotFound();
+            return View(color);
+        }
+        public async Task<IActionResult> Edit(int id)
+        {
+            Models.Color color = await _context.Colors.FirstOrDefaultAsync(c=>c.Id==id);
+            if(color==null) return NotFound();
+            return View(color);
+        }
+
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+
+        public async Task<IActionResult> Edit(int id, Models.Color color)
+        {
+            Models.Color existedColor = await _context.Colors.FirstOrDefaultAsync(c => c.Id == id);
+            {
+                if(existedColor==null) return NotFound();
+                if(id != existedColor.Id) return BadRequest();                
+                existedColor.Name = color.Name;
+               
+
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
         }
         public IActionResult Delete(int id)
         {

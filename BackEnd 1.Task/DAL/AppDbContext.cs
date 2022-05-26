@@ -22,6 +22,9 @@ namespace BackEnd_1.Task.DAL
 
         public DbSet<PlantImage>PlantImages { get; set; }
 
+        public DbSet <Category>Categories { get; set; }
+
+
 
     }
    
