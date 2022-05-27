@@ -1,0 +1,37 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div>
+     <div>
+        <h4>Id</h4>
+        <p>@Model.Id</p>
+    </div>
+     <div>
+        <h4>Image</h4>
+        <img style = "width:150px; height:120px" src="~/assets/images/website-images/@Model.Image">
+    </div>
+    <div>
+        <h4>Title</h4>
+        <p>@Model.Title</p>
+    </div>
+     <div>
+        <h4>Subtitle</h4>
+        <p>@Model.Subtitle</p>
+    </div>
+     <div>
+        <h4>Discount</h4>
+        <p>@Model.Discount</p>
+    </div>
+     <div>
+        <h4>DicoverURL</h4>
+        <p>@Model.DiscoverURL</p>
+    </div>
+     <div>
+        <h3>Order</h3>
+        <p>@Model.Order</p>
+    </div>
+    
+</div>
+

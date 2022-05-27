@@ -67,9 +67,22 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
                 return RedirectToAction(nameof(Index));
             }
         }
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            return Json(id);
+            Models.Color color = await _context.Colors.FirstOrDefaultAsync(c=>c.Id == id);
+            if (color == null) return NotFound();
+            return View(color);
+        }
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        [ActionName("Delete")]
+        public async Task<IActionResult> DeleteColor(int id)
+        {
+            Models.Color color = await _context.Colors.FirstOrDefaultAsync(c=>c.Id == id);
+            if(color==null) return NotFound();
+            _context.Colors.Remove(color);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -72,10 +72,30 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
 
             }
         }
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            return Json(id);
+            Models.Size size = await _context.Sizes.FirstOrDefaultAsync(s => s.Id == id);
+            
+                if(size==null) return NotFound();
+                return View(size);
+
         }
+
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        [ActionName("Delete")]
+
+        public async Task<IActionResult>DeleteSize(int id)
+        {
+            Models.Size size = await _context.Sizes.FirstOrDefaultAsync(s => s.Id == id);
+            if(size == null) return NotFound();
+
+            _context.Sizes.Remove(size);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+       
 
     }
 }

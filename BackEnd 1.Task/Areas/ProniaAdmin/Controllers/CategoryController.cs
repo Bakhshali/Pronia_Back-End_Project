@@ -65,11 +65,29 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
             }
                 
         }
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-
-            return Json(id);
+            Category category = await _contex.Categories.FirstOrDefaultAsync(s => s.Id == id);
+            if (category == null) return NotFound();
+            return View(category);
         }
-       
+
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        [ActionName("Delete")]
+
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            Category category = await _contex.Categories.FirstOrDefaultAsync(s => s.Id == id);
+
+            if (category == null) return NotFound();
+
+            _contex.Categories.Remove(category);
+
+            await _contex.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

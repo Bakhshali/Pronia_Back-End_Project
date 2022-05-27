@@ -1,0 +1,33 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Create";
+}
+<form method = "post">
+    <div> 
+          <label>Slider title:</label> <br/>
+            <input asp-for="Title" class = "mt-2 form-control">
+    </div>
+      <div> 
+          <label>Slider subtitle:</label> <br/>
+            <input asp-for="Subtitle" class = "mt-2 form-control">
+    </div>
+      <div> 
+          <label>Slider discount:</label> <br/>
+            <input asp-for="Discount" class = "mt-2 form-control">
+    </div>
+      <div> 
+          <label>Slider discoverURl:</label> <br/>
+            <input asp-for="DiscoverURL" class = "mt-2 form-control">
+    </div>
+      <div> 
+          <label>Slider order:</label> <br/>
+            <input asp-for="Order" class = "mt-2 form-control">
+    </div>
+
+   
+
+    <div>
+        <button style = "color: white" class = "btn btn-primary">Submit</button>
+    </div>
+</form>
+
