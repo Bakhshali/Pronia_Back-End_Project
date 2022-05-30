@@ -1,8 +1,11 @@
-﻿using BackEnd_1.Task.DAL;
+﻿using BackEnd_1.Task.Areas.Extensisons;
+using BackEnd_1.Task.DAL;
 using BackEnd_1.Task.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
@@ -12,10 +15,12 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
     public class SliderController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IWebHostEnvironment _environment;
 
-        public SliderController(AppDbContext context)
+        public SliderController(AppDbContext context,IWebHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
 
         public async Task<IActionResult> Index()
@@ -39,18 +44,39 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
             
             if (!ModelState.IsValid) return View();
 
-            if (!slider.Photo.ContentType.Contains("image"))
+            if(slider.Photo != null)
             {
-                ModelState.AddModelError("Photo", "This file not image file, please choose image file");
+
+                if (!slider.Photo.IsOkey(1))
+                {
+                    ModelState.AddModelError("Photo", "This file not image file, please choose image file");
+                    return View();
+                }
+
+
+                string filename = slider.Photo.FileName;
+                string path = Path.Combine(_environment.WebRootPath,"assets", "images", "website-images");
+                string fullpath = Path.Combine(path,filename);
+
+                using (FileStream st = new FileStream(fullpath, FileMode.Create))
+                {
+                  await slider.Photo.CopyToAsync(st);
+                }
+
+                slider.Image = filename;
+                await _context.Sliders.AddAsync(slider);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+
+            else
+            {
+                ModelState.AddModelError("Photo", "Please choose file");
                 return View();
             }
 
-            if(slider.Photo.Length > 1024 * 1024)
-            {
-                ModelState.AddModelError("Photo", "Please choose image file which 1 MB");
-            }
             
-            return RedirectToAction(nameof(Index));
         }
 
 

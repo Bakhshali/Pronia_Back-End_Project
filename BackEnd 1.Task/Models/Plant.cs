@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BackEnd_1.Task.Models
@@ -35,6 +36,13 @@ namespace BackEnd_1.Task.Models
         public Size Size { get; set; }
 
         public List<PlantImage> PlantImages { get; set; }
+
+        [NotMapped]
+        public IFormFile MainImage { get; set; }
+
+        [NotMapped]
+        public List<IFormFile> AnotherImages { get; set; }
+
 
 
 

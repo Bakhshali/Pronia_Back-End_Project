@@ -167,3 +167,5 @@ C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Areas\ProniaAdmin\Views\Slider\Detail.cshtml.g.cs
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Areas\ProniaAdmin\Views\Slider\Delete.cshtml.g.cs
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Areas\ProniaAdmin\Views\Slider\Edit.cshtml.g.cs
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Areas\ProniaAdmin\Views\Plant\Index.cshtml.g.cs
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Areas\ProniaAdmin\Views\Plant\Create.cshtml.g.cs
