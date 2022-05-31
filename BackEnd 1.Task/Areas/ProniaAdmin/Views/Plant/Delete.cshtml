@@ -1,0 +1,56 @@
+﻿@model Plant
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div>
+   <div>
+        <h4>Id</h4>
+        <p>@Model.Id</p>
+    </div>
+     <div>
+        <h4>Image</h4>
+        <img style = "width:150px; height:120px" src="~/assets/images/website-images/@Model.PlantImages.FirstOrDefault(i=>i.IsMain==true).ImagePath">
+    </div>
+    <div>
+        <h4>Name</h4>
+        <p>@Model.Name</p>
+    </div>
+     <div>
+        <h4>Price</h4>
+        <p>@Model.Price</p>
+    </div>
+     <div>
+        <h4>Description</h4>
+        <p>@Model.Description</p>
+    </div>
+     <div>
+        <h4>SKUCode</h4>
+        <p>@Model.SKUCode</p>
+    </div>
+     <div>
+        <h3>Request</h3>
+        <p>@Model.Request</p>
+    </div>
+     <div>
+        <h3>Shipping</h3>
+        <p>@Model.Shipping</p>
+    </div>
+     <div>
+        <h3>Guarantee</h3>
+        <p>@Model.Guarantee</p>
+    </div>
+    <div>
+        <h3>Color</h3>
+        <p>@Model.Color</p>
+    </div>
+      <div>
+        <h3>Size</h3>
+        <p>@Model.Size</p>
+    </div>
+</div>
+
+<form method = "post" class="mt-4">
+    <button class = "btn btn-danger">Delete </button>
+</form>
+

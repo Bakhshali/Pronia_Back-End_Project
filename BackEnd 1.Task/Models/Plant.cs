@@ -43,6 +43,12 @@ namespace BackEnd_1.Task.Models
         [NotMapped]
         public List<IFormFile> AnotherImages { get; set; }
 
+        [NotMapped]
+        public List<int> AnotherIMGid { get; set; }
+         
+        [NotMapped]
+        public int MainIMGid { get; set; }
+
 
 
 

@@ -11,7 +11,7 @@ namespace BackEnd_1.Task.Areas.Extensisons
 
         public static bool IsGreater(this IFormFile file,int mb)
         {
-            return file.Length < mb * 1024 * 1024;
+            return file.Length > mb * 1024 * 1024;
         }
 
         public static bool IsOkey(this IFormFile file, int mb)
