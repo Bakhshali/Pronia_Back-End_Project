@@ -10,5 +10,7 @@ namespace BackEnd_1.Task.ViewModels
         public List<Card> Cards{ get; set; }
 
         public List<Plant> Plants{ get; set; }
+
+        
     }
 }

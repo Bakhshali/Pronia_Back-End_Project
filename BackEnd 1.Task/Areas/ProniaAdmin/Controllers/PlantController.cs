@@ -54,6 +54,7 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
             }
 
             if (plant.MainImage.IsOkey(1))
+
             {
                 ModelState.AddModelError("MainImage", "Please choose image file and max 1Mb length image");
                 return View();
@@ -120,16 +121,32 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
             Plant existed = await _context.Plants.Include(p => p.PlantImages).FirstOrDefaultAsync(p=>p.Id==id);
             if (existed == null) return NotFound();
 
+
             if (plant.AnotherIMGid==null && plant.AnotherImages==null)
             {
                 ModelState.AddModelError(" ", "You can not delete all images without adding another image");
                 return View(existed);
             }
 
-
+            if (plant.MainIMGid==null && plant.MainImage==null)
+            {
+                ModelState.AddModelError(" ", "You can not delete MainImage without adding main image");
+                return View(existed);
+            }
+           
             List<PlantImage> removeImage = existed.PlantImages.Where(p=>p.IsMain==false && !plant.AnotherIMGid.Contains(p.Id)).ToList();
 
+            List<PlantImage> removeMainIMG = existed.PlantImages.Where(pm=>pm.IsMain==true && plant.MainIMGid != pm.Id).ToList();
+
             existed.PlantImages.RemoveAll(p => removeImage.Any(ri => ri.Id == p.Id));
+
+            existed.PlantImages.RemoveAll(p=> removeMainIMG.Any(ri => ri.Id == p.Id));
+
+
+            foreach (var item in removeMainIMG)
+            {
+                FileUtilities.FileDelete(_environment.WebRootPath, @"assets\images\website-images", item.ImagePath);
+            }
 
 
             foreach ( var item in removeImage)
@@ -137,18 +154,33 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
                 FileUtilities.FileDelete(_environment.WebRootPath, @"assets\images\website-images", item.ImagePath);
             }
 
-            foreach (var item in plant.AnotherImages)
+            if (plant.MainImage != null)
             {
-                PlantImage plantImage = new PlantImage
+                PlantImage mainimg = new PlantImage
                 {
-                    ImagePath = await item.FileExists(_environment.WebRootPath, @"assets\images\website-images"),
-                    IsMain = false,
-                    PlantId = existed.Id
+                    IsMain = true,
+                    PlantId = existed.Id,
+                    ImagePath = await plant.MainImage.FileExists(_environment.WebRootPath, @"assets\images\website-images")
                 };
+                existed.PlantImages.Add(mainimg);
+            }
+          
 
-                existed.PlantImages.Add(plantImage);
+            if (plant.AnotherImages!=null)
+            {
+                foreach (var item in plant.AnotherImages)
+                {
+                    PlantImage plantImage = new PlantImage
+                    {
+                        ImagePath = await item.FileExists(_environment.WebRootPath, @"assets\images\website-images"),
+                        IsMain = false,
+                        PlantId = existed.Id
+                    };
+
+                    existed.PlantImages.Add(plantImage);
 
 
+                }
             }
                 
             _context.Entry(existed).CurrentValues.SetValues(plant);

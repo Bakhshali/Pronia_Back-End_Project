@@ -158,7 +158,7 @@
                                                  src="~/assets/images/website-images/@plant.PlantImages.FirstOrDefault(p=>p.IsMain==true).ImagePath"
                                                  alt="Product Images" />
                                             <img class="secondary-img"
-                                                 src="~/assets/images/website-images/@plant.PlantImages.OrderByDescending(p=>p.Id).FirstOrDefault(p=>p.IsMain==false).ImagePath"
+                                                 src="~/assets/images/website-images/@plant.PlantImages.OrderByDescending(p=>p.Id).FirstOrDefault(p=>p.IsMain==false)?.ImagePath"
                                                  alt="Product Images" />
                                         </a>
                                         <div class="product-add-action">

@@ -47,7 +47,9 @@ namespace BackEnd_1.Task.Models
         public List<int> AnotherIMGid { get; set; }
          
         [NotMapped]
-        public int MainIMGid { get; set; }
+        public int? MainIMGid { get; set; }
+
+        public List<PlantCategory> PlantCategories { get; set; }
 
 
 

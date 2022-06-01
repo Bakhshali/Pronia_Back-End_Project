@@ -1,4 +1,5 @@
 using BackEnd_1.Task.DAL;
+using BackEnd_1.Task.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -25,6 +26,8 @@ namespace BackEnd_1.Task
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<LayoutService>();
+
             services.AddControllersWithViews();
 
             services.AddDbContext<AppDbContext>(opt =>

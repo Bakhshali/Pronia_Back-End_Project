@@ -10,6 +10,13 @@ namespace BackEnd_1.Task.DAL
 
         }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Setting>()
+            .HasIndex(u=>u.Key)
+            .IsUnique();
+        }
+
         public DbSet<Slider>Sliders { get; set; }
 
         public DbSet<Card>Cards { get; set; }
@@ -24,6 +31,9 @@ namespace BackEnd_1.Task.DAL
 
         public DbSet <Category>Categories { get; set; }
 
+        public DbSet<PlantCategory>PlantCategories { get; set; }
+
+        public DbSet<Setting> Settings { get; set; }
 
 
     }
