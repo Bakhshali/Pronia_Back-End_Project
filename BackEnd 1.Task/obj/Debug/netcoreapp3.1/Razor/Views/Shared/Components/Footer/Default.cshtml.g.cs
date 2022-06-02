@@ -13,21 +13,21 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\Views\_ViewImports.cshtml"
 using BackEnd_1.Task.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\Views\_ViewImports.cshtml"
 using BackEnd_1.Task.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ff35e9ad40b8ad3ff59fc1e38da548c8b8a0a921", @"/Views/Shared/Components/Footer/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"988ca680bec4cf4c415c5aa84777861c40f391f9", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"85d8b87ae605bead738ad62e74024b4b70c84dfc", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components_Footer_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Setting>>
     #nullable disable

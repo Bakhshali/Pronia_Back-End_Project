@@ -102,7 +102,7 @@
                                 </div>
 
                                 <a href="index.html" class="header-logo">
-                                    <img src="~/assets/images/logo/dark.png" alt="@layoutService.GetDatas().Result/>
+                                    <img src="~/assets/images/logo/dark.png" alt="@*@layoutService.GetDatas().Result*@/>
                                 </a>
 
                                 <div class="header-right">
@@ -142,7 +142,7 @@
                                         <li class="minicart-wrap me-3 me-lg-0">
                                             <a href="#miniCart" class="minicart-btn toolbar-btn">
                                                 <i class="pe-7s-shopbag"></i>
-                                                <span class="quantity">3</span>
+                                                <span class="quantity">@layoutService.GetBasket()?.Count</span>
                                             </a>
                                         </li>
                                         <li class="mobile-menu_wrap d-block d-lg-none">
@@ -832,8 +832,8 @@
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title"
-                                       href="single-product-variable.html">American Marigold</a>
-                                    <span class="product-item_quantity">1 x $23.45</span>
+                                       href="single-product-variable.html"></a>
+                                    <span class="product-item_quantity">@layoutService.GetBasket().Count</span>
                                 </div>
                             </li>
                             <li class="minicart-product">
@@ -884,7 +884,7 @@
                     </div>
                     <div class="minicart-item_total">
                         <span>Subtotal</span>
-                        <span class="ammount">$79.35</span>
+                        <span class="ammount">@layoutService.GetBasket().TotalPrice</span>
                     </div>
                     <div class="group-btn_wrap d-grid gap-2">
                         <a href="cart.html" class="btn btn-dark">View Cart</a>

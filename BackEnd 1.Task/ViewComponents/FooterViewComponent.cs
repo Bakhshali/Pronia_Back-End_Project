@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace BackEnd_1.Task.ViewComponents
 {
-    public class HomeViewComponent:ViewComponent
+    public class FooterViewComponent:ViewComponent
     {
         private readonly AppDbContext _context;
 
-        public HomeViewComponent(AppDbContext context)
+        public FooterViewComponent(AppDbContext context)
         {
             _context = context;
         }

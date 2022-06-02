@@ -34,6 +34,8 @@ namespace BackEnd_1.Task
             {
                 opt.UseSqlServer(_configuration.GetConnectionString("Default"));
             });
+
+            services.AddHttpContextAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,7 +58,7 @@ namespace BackEnd_1.Task
                     );
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=home}/{action=index}"
+                    pattern: "{controller=home}/{action=index}/{id?}"
                     );
             });
         }
