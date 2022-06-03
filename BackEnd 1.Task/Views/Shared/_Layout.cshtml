@@ -1,4 +1,8 @@
-﻿
+﻿@{
+    BasketVM basket = await layoutService.GetBasket();
+}
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -142,7 +146,7 @@
                                         <li class="minicart-wrap me-3 me-lg-0">
                                             <a href="#miniCart" class="minicart-btn toolbar-btn">
                                                 <i class="pe-7s-shopbag"></i>
-                                                <span class="quantity">@layoutService.GetBasket()?.Count</span>
+                                                <span class="quantity">@basket?.Count</span>
                                             </a>
                                         </li>
                                         <li class="mobile-menu_wrap d-block d-lg-none">
@@ -814,8 +818,15 @@
                             </a>
                         </div>
                         <ul class="minicart-list">
-                            <li class="minicart-product">
-                                <a class="product-item_remove" href="#">
+                    @if (basket!=null)
+                      
+                    {
+                           
+                        @foreach (BasketItemVM item in basket.BasketItems)
+
+                        {
+                                <li class="minicart-product">
+                                <a class="product-item_remove" asp-controller="plant" asp-action="deletebasket"  >
                                     <i class="pe-7s-close"
                                        data-tippy="Remove"
                                        data-tippy-inertia="true"
@@ -823,68 +834,27 @@
                                        data-tippy-delay="50"
                                        data-tippy-arrow="true"
                                        data-tippy-theme="sharpborder"></i>
-                                </a>
+                                </a >
                                 <a href="single-product-variable.html"
                                    class="product-item_img">
                                     <img class="img-full"
-                                         src="~/assets/images/product/small-size/2-1-70x78.png"
+                                         src="~/assets/images/website-images/@item.Plant.PlantImages.FirstOrDefault(p=>p.IsMain==true)?.ImagePath"
                                          alt="Product Image" />
                                 </a>
                                 <div class="product-item_content">
                                     <a class="product-item_title"
-                                       href="single-product-variable.html"></a>
-                                    <span class="product-item_quantity">@layoutService.GetBasket().Count</span>
+                                       href="single-product-variable.html">@item.Plant.Name</a>
+                                    <span class="product-item_quantity">@item.Count x $@item.Plant.Price</span>
                                 </div>
                             </li>
-                            <li class="minicart-product">
-                                <a class="product-item_remove" href="#">
-                                    <i class="pe-7s-close"
-                                       data-tippy="Remove"
-                                       data-tippy-inertia="true"
-                                       data-tippy-animation="shift-away"
-                                       data-tippy-delay="50"
-                                       data-tippy-arrow="true"
-                                       data-tippy-theme="sharpborder"></i>
-                                </a>
-                                <a href="single-product-variable.html"
-                                   class="product-item_img">
-                                    <img class="img-full"
-                                         src="~/assets/images/product/small-size/2-2-70x78.png"
-                                         alt="Product Image" />
-                                </a>
-                                <div class="product-item_content">
-                                    <a class="product-item_title"
-                                       href="single-product-variable.html">Black Eyed Susan</a>
-                                    <span class="product-item_quantity">1 x $25.45</span>
-                                </div>
-                            </li>
-                            <li class="minicart-product">
-                                <a class="product-item_remove" href="#">
-                                    <i class="pe-7s-close"
-                                       data-tippy="Remove"
-                                       data-tippy-inertia="true"
-                                       data-tippy-animation="shift-away"
-                                       data-tippy-delay="50"
-                                       data-tippy-arrow="true"
-                                       data-tippy-theme="sharpborder"></i>
-                                </a>
-                                <a href="single-product-variable.html"
-                                   class="product-item_img">
-                                    <img class="img-full"
-                                         src="~/assets/images/product/small-size/2-3-70x78.png"
-                                         alt="Product Image" />
-                                </a>
-                                <div class="product-item_content">
-                                    <a class="product-item_title"
-                                       href="single-product-variable.html">Bleeding Heart</a>
-                                    <span class="product-item_quantity">1 x $30.45</span>
-                                </div>
-                            </li>
+                        }
+                     }
+                           
                         </ul>
                     </div>
                     <div class="minicart-item_total">
                         <span>Subtotal</span>
-                        <span class="ammount">@layoutService.GetBasket().TotalPrice</span>
+                        <span class="ammount">$@basket?.TotalPrice</span>
                     </div>
                     <div class="group-btn_wrap d-grid gap-2">
                         <a href="cart.html" class="btn btn-dark">View Cart</a>

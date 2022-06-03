@@ -12,6 +12,7 @@ namespace BackEnd_1.Task.ViewModels
         
         public int Count { get; set; }
 
+
         public BasketVM()
         {
             BasketItems = new List<BasketItemVM>();

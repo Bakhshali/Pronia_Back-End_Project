@@ -4,6 +4,7 @@ using BackEnd_1.Task.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,6 +20,23 @@ namespace BackEnd_1.Task.Controllers
             _context = context;
         }
 
+
+
+
+        public IActionResult DeleteBasket(int id)
+        {
+
+            if (Request.Cookies["Basket"] != null)
+            {
+                Response.Cookies.Delete("Basket");
+            }
+
+              return RedirectToAction("Index", "Home");
+        }
+
+
+
+
         public async Task<IActionResult> AddBasket(int id)
         {
             Plant plant = await _context.Plants.FirstOrDefaultAsync(pc => pc.Id == id);
@@ -27,64 +45,67 @@ namespace BackEnd_1.Task.Controllers
 
             string basketStr = HttpContext.Request.Cookies["Basket"];
 
-            BasketVM basketvm;
+            List<BasketCookiesItemsVM> basketvm;
 
-            string itemstr;
+
+
+
 
             if (string.IsNullOrEmpty(basketStr))
             {
-                basketvm = new BasketVM();
-                BasketItemVM basketitem = new BasketItemVM
+                basketvm = new List<BasketCookiesItemsVM>();
+
+                BasketCookiesItemsVM cookie = new BasketCookiesItemsVM
                 {
-                    Plant = plant,
-                    Count = 1,
+                    Id = plant.Id,
+                    Count = 1
+
                 };
-                basketvm.BasketItems.Add(basketitem);
-                itemstr = JsonConvert.SerializeObject(basketitem);
+
+
+                basketvm.Add(cookie);
+                basketStr = JsonConvert.SerializeObject(basketvm);
             }
 
             else
             {
 
 
-                basketvm = JsonConvert.DeserializeObject<BasketVM>(basketStr);
+                basketvm = JsonConvert.DeserializeObject<List<BasketCookiesItemsVM>>(basketStr);
 
-                BasketItemVM basketitem = basketvm.BasketItems.FirstOrDefault(bi => bi.Plant.Id == id);
+                BasketCookiesItemsVM existedCookie = basketvm.FirstOrDefault(ec => ec.Id == plant.Id);
 
-                if (basketitem == null)
+                if (existedCookie == null)
                 {
 
-                    BasketItemVM item = new BasketItemVM
+                    BasketCookiesItemsVM cookie = new BasketCookiesItemsVM
                     {
-                        Plant = plant,
-                        Count = 1,
+                        Id = plant.Id,
+                        Count = 1
+
                     };
 
-                    basketvm.BasketItems.Add(item);
+                    basketvm.Add(cookie);
                 }
                 else
                 {
-                    basketitem.Count++;
+                    existedCookie.Count++;
                 }
-                decimal total = default;
-                foreach (BasketItemVM item in basketvm.BasketItems)
-                {
-                    total += item.Count * item.Plant.Price;
-                }
-                basketvm.TotalPrice = total;
-                basketvm.Count = basketvm.BasketItems.Count;
 
-                itemstr = JsonConvert.SerializeObject(basketvm);
+
+
+
+                basketStr = JsonConvert.SerializeObject(basketvm);
             }
 
-            HttpContext.Response.Cookies.Append("Basket", itemstr);
+            HttpContext.Response.Cookies.Append("Basket", basketStr);
 
             return RedirectToAction("Index", "Home");
         }
 
         public ActionResult ShowBasket()
         {
-            
+
             return Content(HttpContext.Request.Cookies["Basket"]);
 
 
