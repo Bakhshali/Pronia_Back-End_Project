@@ -7,5 +7,6 @@ namespace BackEnd_1.Task.ViewModels
         public Plant Plant { get; set; }
 
         public int Count { get; set; }
+
     }
 }

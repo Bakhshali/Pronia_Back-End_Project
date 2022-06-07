@@ -2,7 +2,6 @@
     BasketVM basket = await layoutService.GetBasket();
 }
 
-
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -106,7 +105,7 @@
                                 </div>
 
                                 <a href="index.html" class="header-logo">
-                                    <img src="~/assets/images/logo/dark.png" alt="@*@layoutService.GetDatas().Result*@/>
+                                    <img src="~/assets/images/logo/dark.png" alt="@*@layoutService.GetDatas().Result*@ />
                                 </a>
 
                                 <div class="header-right">
@@ -130,12 +129,24 @@
                                             </button>
                                             <ul class="dropdown-menu"
                                                 aria-labelledby="settingButton">
-                                                <li>
-                                                    <a class="dropdown-item" href="my-account.html">My account</a>
+
+                                                @if (User.Identity.IsAuthenticated)
+                                                {
+                                                    <li>
+                                                        <a class="dropdown-item">@User.Identity.Name</a>
+                                                    </li>
+                                                      <li>
+                                                        <a class="dropdown-item" asp-controller = "account" asp-action = "logout">Log out</a>
+                                                    </li>
+                                                }
+
+                                                else
+                                                {
+                                                 <li>
+                                                    <a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a>
+                                                    <a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a>
                                                 </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="login-register.html">Login | Register</a>
-                                                </li>
+                                                }
                                             </ul>
                                         </li>
                                         <li class="d-none d-lg-block">
@@ -442,7 +453,7 @@
                                             <ul class="dropdown-menu"
                                                 aria-labelledby="stickysettingButton">
                                                 <li>
-                                                    <a class="dropdown-item" href="my-account.html">My account</a>
+                                                    <a class="dropdown-item" href="my-account.html">@(User.Identity.IsAuthenticated ? $"{User.Identity.Name}" : "My Account")</a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="login-register.html">Login | Register</a>
@@ -525,7 +536,7 @@
                                     <ul class="dropdown-menu dropdown-menu-end"
                                         aria-labelledby="settingButtonTwo">
                                         <li>
-                                            <a class="dropdown-item" href="my-account.html">My account</a>
+                                            <a class="dropdown-item" href="my-account.html">@(User.Identity.IsAuthenticated ? $"{User.Identity.Name}" : "My Account")</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="login-register.html">Login | Register</a>
@@ -818,38 +829,38 @@
                             </a>
                         </div>
                         <ul class="minicart-list">
-                    @if (basket!=null)
-                      
+                    @if (basket != null)
+
                     {
-                           
+
                         @foreach (BasketItemVM item in basket.BasketItems)
 
                         {
-                                <li class="minicart-product">
-                                <a class="product-item_remove" asp-controller="plant" asp-action="deletebasket"  >
-                                    <i class="pe-7s-close"
+                                    <li class="minicart-product">
+                                        <a class="product-item_remove" asp-controller="plant" asp-action="deletebasket" asp-route-id="@item.Plant.Id">
+                                            <i class="pe-7s-close"
                                        data-tippy="Remove"
                                        data-tippy-inertia="true"
                                        data-tippy-animation="shift-away"
                                        data-tippy-delay="50"
                                        data-tippy-arrow="true"
                                        data-tippy-theme="sharpborder"></i>
-                                </a >
-                                <a href="single-product-variable.html"
+                                        </a>
+                                        <a href="single-product-variable.html"
                                    class="product-item_img">
-                                    <img class="img-full"
+                                            <img class="img-full"
                                          src="~/assets/images/website-images/@item.Plant.PlantImages.FirstOrDefault(p=>p.IsMain==true)?.ImagePath"
                                          alt="Product Image" />
-                                </a>
-                                <div class="product-item_content">
-                                    <a class="product-item_title"
+                                        </a>
+                                        <div class="product-item_content">
+                                            <a class="product-item_title"
                                        href="single-product-variable.html">@item.Plant.Name</a>
-                                    <span class="product-item_quantity">@item.Count x $@item.Plant.Price</span>
-                                </div>
-                            </li>
+                                            <span class="product-item_quantity">@item.Count x $@item.Plant.Price</span>
+                                        </div>
+                                    </li>
                         }
-                     }
-                           
+                    }
+
                         </ul>
                     </div>
                     <div class="minicart-item_total">
@@ -866,10 +877,9 @@
         </header>
         <!-- Main Header Area End Here -->
         <!-- Begin Slider Area -->
-        @RenderBody()
+    @RenderBody()
         <!-- Begin Footer Area -->
-
-      @await Component.InvokeAsync("Footer")
+    @await Component.InvokeAsync("Footer")
 
         <!-- Footer Area End Here -->
         <!-- Begin Modal Area -->

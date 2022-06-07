@@ -27,7 +27,7 @@ using BackEnd_1.Task.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3a8dcbd6b4f188da0ce46fb405854fa4d4b98a66", @"/Areas/ProniaAdmin/Views/Size/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ed4a9268ca533f917ff6c15d42e82a41335c7efc", @"/Areas/ProniaAdmin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"82555acb3fa2d5b9c080299b12c4a01df6d5a4f5", @"/Areas/ProniaAdmin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_ProniaAdmin_Views_Size_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Size>
     #nullable disable

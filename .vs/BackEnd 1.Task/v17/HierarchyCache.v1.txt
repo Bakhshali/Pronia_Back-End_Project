@@ -1,0 +1,851 @@
+﻿++Solution 'BackEnd 1.Task' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:BackEnd 1.Task.sln
+++BackEnd 1.Task
+i:{00000000-0000-0000-0000-000000000000}:BackEnd 1.Task
+++Connected Services 
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1385
+++Dependencies
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1384
+++Properties
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\properties\
+++wwwroot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\
+++Areas
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\
+++Extensisons
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\extensisons\
+++FileCombine.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\extensisons\filecombine.cs
+++ProniaAdmin
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\
+++Controllers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\controllers\
+++CategoryController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\categorycontroller.cs
+++ColorController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\colorcontroller.cs
+++DashboardController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\dashboardcontroller.cs
+++HomeController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\homecontroller.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\controllers\homecontroller.cs
+++PlantController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\plantcontroller.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\controllers\plantcontroller.cs
+++SizeController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\sizecontroller.cs
+++SliderController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\controllers\slidercontroller.cs
+++Data
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\data\
+++Models
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\models\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\
+++Views
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\
+++Category
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\category\
+++Create.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\category\create.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\plant\create.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\color\create.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\size\create.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\slider\create.cshtml
+++Delete.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\category\delete.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\plant\delete.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\color\delete.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\size\delete.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\slider\delete.cshtml
+++Detail.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\category\detail.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\plant\detail.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\color\detail.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\size\detail.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\slider\detail.cshtml
+++Edit.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\category\edit.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\plant\edit.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\color\edit.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\size\edit.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\slider\edit.cshtml
+++Index.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\category\index.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\plant\index.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\home\index.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\color\index.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\dashboard\index.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\size\index.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\slider\index.cshtml
+++Color
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\color\
+++Dashboard
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\dashboard\
+++Plant
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\plant\
+++Shared
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\shared\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\shared\
+++Size
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\size\
+++Slider
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\slider\
+++_ViewImports.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\_viewimports.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\_viewstart.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\_viewstart.cshtml
+++DAL
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\dal\
+++Migrations
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\
+++20220524063801_CreateDatabase.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524063801_createdatabase.cs
+++20220524064150_createSliderTable.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524064150_createslidertable.cs
+++20220524082126_createCardTable.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524082126_createcardtable.cs
+++20220524191643_createdPlantAndColorAndSizeAndPlantImageTables.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524191643_createdplantandcolorandsizeandplantimagetables.cs
+++20220525195443_add-migration createdCategoryTable.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220525195443_add-migration createdcategorytable.cs
+++20220526104227_sizeModelNamePropStringLength.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220526104227_sizemodelnamepropstringlength.cs
+++20220527033533_addDataAnnotationsToSliders.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220527033533_adddataannotationstosliders.cs
+++20220531210255_addPlantCategoriesModel.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220531210255_addplantcategoriesmodel.cs
+++20220601075021_createdSettingModel.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220601075021_createdsettingmodel.cs
+++AppDbContextModelSnapshot.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\appdbcontextmodelsnapshot.cs
+++Card.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\card.cs
+++Category.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\category.cs
+++Color.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\color.cs
+++Plant.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\plant.cs
+++PlantCategory.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\plantcategory.cs
+++PlantImage.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\plantimage.cs
+++Setting.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\setting.cs
+++Size.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\size.cs
+++Slider.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\slider.cs
+++Services
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\services\
+++LayoutService.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\services\layoutservice.cs
+++Utilities
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\utilities\
+++FileUtilities.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\utilities\fileutilities.cs
+++ViewComponents
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewcomponents\
+++FooterViewComponent.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewcomponents\footerviewcomponent.cs
+++ViewModels
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewmodels\
+++BasketCookiesItemsVM.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewmodels\basketcookiesitemsvm.cs
+++BasketItemVM.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewmodels\basketitemvm.cs
+++BasketVM.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewmodels\basketvm.cs
+++HomeVM.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewmodels\homevm.cs
+++Home
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\home\
+++Components
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\shared\components\
+++Footer
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\shared\components\footer\
+++Default.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\shared\components\footer\default.cshtml
+++_Layout.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\shared\_layout.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\areas\proniaadmin\views\shared\_layout.cshtml
+++appsettings.json
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\appsettings.json
+++Program.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\program.cs
+++ScaffoldingReadMe.txt
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\scaffoldingreadme.txt
+++Startup.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\startup.cs
+++No service dependencies discovered
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1386
+++Analyzers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:analyzers
+++Frameworks
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:frameworks
+++Packages
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:packages
+++launchSettings.json
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\properties\launchsettings.json
+++admin
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\
+++assets
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\
+++AppDbContext.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\dal\appdbcontext.cs
+++20220524063801_CreateDatabase.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524063801_createdatabase.designer.cs
+++20220524064150_createSliderTable.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524064150_createslidertable.designer.cs
+++20220524082126_createCardTable.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524082126_createcardtable.designer.cs
+++20220524191643_createdPlantAndColorAndSizeAndPlantImageTables.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220524191643_createdplantandcolorandsizeandplantimagetables.designer.cs
+++20220525195443_add-migration createdCategoryTable.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220525195443_add-migration createdcategorytable.designer.cs
+++20220526104227_sizeModelNamePropStringLength.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220526104227_sizemodelnamepropstringlength.designer.cs
+++20220527033533_addDataAnnotationsToSliders.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220527033533_adddataannotationstosliders.designer.cs
+++20220531210255_addPlantCategoriesModel.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220531210255_addplantcategoriesmodel.designer.cs
+++20220601075021_createdSettingModel.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220601075021_createdsettingmodel.designer.cs
+++appsettings.Development.json
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.25\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore (3.1.25)
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1398
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.25)
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1399
+++Microsoft.EntityFrameworkCore.Tools (3.1.25)
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1400
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (3.1.5)
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1401
+++css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\css\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\css\
+++fonts
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\fonts\
+++images
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\
+++js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\
+++vendors
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\
+++maps
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\css\maps\
+++style.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\css\style.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\style.css
+++Roboto
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\
+++.DS_Store
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\.ds_store
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\.ds_store
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\.ds_store
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\.ds_store
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\.ds_store
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\auth\.ds_store
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\.ds_store
+++auth
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\auth\
+++faces
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\
+++favicon.ico
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\favicon.ico
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\favicon.ico
+++favicon.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\favicon.png
+++logo.svg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\logo.svg
+++logo-mini.svg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\logo-mini.svg
+++chart.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\chart.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\chart.js\
+++dashboard.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\dashboard.js
+++data-table.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\data-table.js
+++dataTables.bootstrap4.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\datatables.bootstrap4.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\datatables.net-bs4\datatables.bootstrap4.js
+++documentation.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\documentation.js
+++file-upload.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\file-upload.js
+++hoverable-collapse.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\hoverable-collapse.js
+++jquery.cookie.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\jquery.cookie.js
+++jquery.dataTables.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\jquery.datatables.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\datatables.net\jquery.datatables.js
+++off-canvas.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\off-canvas.js
+++tabs.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\tabs.js
+++template.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\template.js
+++base
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\base\
+++datatables.net
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\datatables.net\
+++datatables.net-bs4
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\datatables.net-bs4\
+++mdi
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\
+++animate.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\animate.min.css
+++bootstrap.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\bootstrap.min.css
+++font-awesome.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\font-awesome.min.css
+++ion.rangeSlider.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\ion.rangeslider.min.css
+++magnific-popup.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\magnific-popup.min.css
+++nice-select.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\nice-select.css
+++Pe-icon-7-stroke.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\pe-icon-7-stroke.css
+++plugins.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\plugins.min.css
+++swiper-bundle.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\swiper-bundle.min.css
+++FontAwesome.otf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\fontawesome.otf
+++fontawesome-webfont.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\fontawesome-webfont.eot
+++fontawesome-webfont.svg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\fontawesome-webfont.svg
+++fontawesome-webfont.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\fontawesome-webfont.ttf
+++fontawesome-webfont.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\fontawesome-webfont.woff
+++fontawesome-webfont.woff2
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\fontawesome-webfont.woff2
+++Pe-icon-7-stroke.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\pe-icon-7-stroke.eot
+++Pe-icon-7-stroke.svg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\pe-icon-7-stroke.svg
+++Pe-icon-7-stroke.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\pe-icon-7-stroke.ttf
+++Pe-icon-7-stroke.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\fonts\pe-icon-7-stroke.woff
+++about
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\
+++banner
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\sidebar\banner\
+++blog
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\
+++brand
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\
+++breadcrumb
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\breadcrumb\
+++contact
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\contact\
+++error-404
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\error-404\
+++footer
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\footer\
+++logo
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\logo\
+++newsletter
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\newsletter\
+++offcanvas
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\offcanvas\
+++payment
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\payment\
+++product
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\
+++shape
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shape\
+++shipping
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\
+++sidebar
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\sidebar\
+++slider
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\
+++testimonial
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\
+++website-images
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\
+++plugins
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\
+++vendor
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\vendor\
+++main.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\main.js
+++plugins.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins.min.js
+++style.css.map
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\css\maps\style.css.map
+++Roboto-Black.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-black.eot
+++Roboto-Black.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-black.ttf
+++Roboto-Black.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-black.woff
+++Roboto-Black.woff2
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-black.woff2
+++Roboto-Bold.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-bold.eot
+++Roboto-Bold.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-bold.ttf
+++Roboto-Bold.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-bold.woff
+++Roboto-Bold.woff2
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-bold.woff2
+++Roboto-Light.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-light.eot
+++Roboto-Light.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-light.ttf
+++Roboto-Light.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-light.woff
+++Roboto-Light.woff2
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-light.woff2
+++Roboto-Medium.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-medium.eot
+++Roboto-Medium.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-medium.ttf
+++Roboto-Medium.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-medium.woff
+++Roboto-Medium.woff2
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-medium.woff2
+++Roboto-Regular.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-regular.eot
+++Roboto-Regular.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-regular.ttf
+++Roboto-Regular.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-regular.woff
+++Roboto-Regular.woff2
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\fonts\roboto\roboto-regular.woff2
+++lockscreen-bg.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\auth\lockscreen-bg.jpg
+++login-bg.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\auth\login-bg.jpg
+++register-bg.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\auth\register-bg.jpg
+++face1.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face1.jpg
+++face10.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face10.jpg
+++face11.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face11.jpg
+++face12.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face12.jpg
+++face13.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face13.jpg
+++face14.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face14.jpg
+++face15.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face15.jpg
+++face16.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face16.jpg
+++face17.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face17.jpg
+++face18.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face18.jpg
+++face19.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face19.jpg
+++face2.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face2.jpg
+++face20.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face20.jpg
+++face21.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face21.jpg
+++face22.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face22.jpg
+++face23.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face23.jpg
+++face24.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face24.jpg
+++face25.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face25.jpg
+++face26.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face26.jpg
+++face27.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face27.jpg
+++face3.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face3.jpg
+++face4.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face4.jpg
+++face5.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face5.jpg
+++face6.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face6.jpg
+++face7.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face7.jpg
+++face8.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face8.jpg
+++face9.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\images\faces\face9.jpg
+++Chart.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\js\chart.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\chart.js\chart.min.js
+++bootstrap.min.js.map
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\base\bootstrap.min.js.map
+++vendor.bundle.base.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\base\vendor.bundle.base.css
+++vendor.bundle.base.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\base\vendor.bundle.base.js
+++dataTables.bootstrap4.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\datatables.net-bs4\datatables.bootstrap4.css
+++style.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\css\style.min.css
+++icon
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\icon\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\icon\
+++team
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\team\
+++1-1-770x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\1-1-770x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1-770x300.jpg
+++1-2-370x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\1-2-370x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-2-370x300.jpg
+++1-3-370x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\1-3-370x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-3-370x300.jpg
+++1-4-770x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\1-4-770x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-4-770x300.jpg
+++2-1-570x500.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\2-1-570x500.jpg
+++2-2-570x235.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\2-2-570x235.jpg
+++2-3-570x235.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\2-3-570x235.jpg
+++3-1-1208x542.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\3-1-1208x542.jpg
+++4-1-1170x400.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\banner\4-1-1170x400.jpg
+++avatar
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\avatar\
+++blockquote
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\blockquote\
+++large-size
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\large-size\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\large-size\
+++medium-size
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\medium-size\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\
+++small-size
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\small-size\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\small-size\
+++bg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\bg\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\breadcrumb\bg\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\error-404\bg\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\footer\bg\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\bg\
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\bg\
+++1-1.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\1-1.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1.png
+++1-2.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\1-2.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-2.png
+++1-3.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\1-3.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-3.png
+++1-4.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\1-4.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-4.png
+++1-5.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\1-5.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-5.png
+++1-1-370x500.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\contact\1-1-370x500.jpg
+++404.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\error-404\404.png
+++dark.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\logo\dark.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\dark.png
+++1-1920x400.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\newsletter\1-1920x400.jpg
+++close-white.svg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\offcanvas\close-white.svg
+++1.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\payment\1.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shape\1.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\icon\1.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\user\1.png
+++2.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shape\2.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\2.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\icon\2.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\user\2.png
+++inner-img
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\inner-img\
+++slide-img
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\slide-img\
+++user
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\user\
+++048c6485-ddee-40da-9c74-e01197ea6f88bandicam 2022-04-13 01-34-27-389.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\048c6485-ddee-40da-9c74-e01197ea6f88bandicam 2022-04-13 01-34-27-389.jpg
+++1-1.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\bg\1-1.jpg
+++1-10-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-10-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-10-270x300.jpg
+++1-11-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-11-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-11-270x300.jpg
+++1-1170x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1170x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\brand\bg\1-1170x300.jpg
+++1-1-1820x443.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1-1820x443.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\bg\1-1-1820x443.jpg
+++1-1-310x220.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1-310x220.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\medium-size\1-1-310x220.jpg
+++1-1-524x617.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1-524x617.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\inner-img\1-1-524x617.png
+++1-1-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\large-size\1-1-570x633.jpg
+++1-1920x465.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-1920x465.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\footer\bg\1-1920x465.jpg
+++1--1rnu4p.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1--1rnu4p.png
+++1-2-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-2-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-2-270x300.jpg
+++1-2-310x220.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-2-310x220.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\medium-size\1-2-310x220.jpg
+++1-2-524x617.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-2-524x617.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\inner-img\1-2-524x617.png
+++1-2-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-2-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\large-size\1-2-570x633.jpg
+++1-270x300.webp
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-270x300.webp
+++1-3-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-3-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-3-270x300.jpg
+++1-3-310x220.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-3-310x220.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\medium-size\1-3-310x220.jpg
+++1-3-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-3-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\large-size\1-3-570x633.jpg
+++1-4-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-4-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-4-270x300.jpg
+++1-4-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-4-570x633.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\large-size\1-4-570x633.jpg
+++1-5-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-5-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-5-270x300.jpg
+++1-6-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-6-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-6-270x300.jpg
+++1-7-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-7-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-7-270x300.jpg
+++1-8-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-8-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-8-270x300.jpg
+++1-9-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\1-9-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-9-270x300.jpg
+++2-1-70x78.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\2-1-70x78.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\small-size\2-1-70x78.png
+++2-2-70x78.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\2-2-70x78.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\small-size\2-2-70x78.png
+++2-3-70x78.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\2-3-70x78.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\small-size\2-3-70x78.png
+++29e8bdb1-26cd-4faf-8a70-996f67f9f0a1bandicam 2022-04-13 01-34-27-389.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\29e8bdb1-26cd-4faf-8a70-996f67f9f0a1bandicam 2022-04-13 01-34-27-389.jpg
+++3.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\3.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\user\3.png
+++388a77a2-8c14-40e5-9037-75445d4aa4ccWIN_20211210_17_38_33_Pro.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\388a77a2-8c14-40e5-9037-75445d4aa4ccwin_20211210_17_38_33_pro.jpg
+++85c96121-cb85-454e-8f5c-4e9319990e3fWIN_20211210_17_38_33_Pro.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\85c96121-cb85-454e-8f5c-4e9319990e3fwin_20211210_17_38_33_pro.jpg
+++car.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\car.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\car.png
+++card.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\card.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\card.png
+++e26f0ea3-c472-4456-becd-66fcb485a292WIN_20211210_17_38_45_Pro.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\e26f0ea3-c472-4456-becd-66fcb485a292win_20211210_17_38_45_pro.jpg
+++fc1ac485-61a7-4c14-98de-c8d51bed071bWIN_20211210_17_38_45_Pro.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\fc1ac485-61a7-4c14-98de-c8d51bed071bwin_20211210_17_38_45_pro.jpg
+++HD-wallpaper-python-amoled-coding-coding-dark-dark-programming-python-sky-universe.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\hd-wallpaper-python-amoled-coding-coding-dark-dark-programming-python-sky-universe.jpg
+++milky-way-5295155__340.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\milky-way-5295155__340.jpg
+++quotation.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\quotation.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\blockquote\quotation.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\testimonial\icon\quotation.png
+++service.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\website-images\service.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\service.png
+++ion.rangeSlider.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\ion.rangeslider.min.js
+++jquery.counterup.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\jquery.counterup.js
+++jquery.magnific-popup.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\jquery.magnific-popup.min.js
+++jquery.nice-select.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\jquery.nice-select.js
+++mailchimp-ajax.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\mailchimp-ajax.js
+++parallax.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\parallax.min.js
+++swiper-bundle.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\swiper-bundle.min.js
+++tippy.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\tippy.min.js
+++wow.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\plugins\wow.min.js
+++bootstrap.bundle.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\vendor\bootstrap.bundle.min.js
+++jquery.waypoints.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\vendor\jquery.waypoints.js
+++jquery-3.6.0.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\vendor\jquery-3.6.0.min.js
+++jquery-migrate-3.3.2.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\vendor\jquery-migrate-3.3.2.min.js
+++modernizr-3.11.2.min.js
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\js\vendor\modernizr-3.11.2.min.js
+++materialdesignicons.min.css
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\css\materialdesignicons.min.css
+++materialdesignicons-webfont.eot
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.eot
+++materialdesignicons-webfont.ttf
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.ttf
+++materialdesignicons-webfont.woff
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.woff
+++materialdesignicons-webfont.woff2
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.woff2
+++1-1-270x270.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\team\1-1-270x270.png
+++1-2-270x270.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\team\1-2-270x270.png
+++1-3-270x270.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\team\1-3-270x270.png
+++1-4-270x270.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\about\team\1-4-270x270.png
+++1-1-120x120.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\avatar\1-1-120x120.png
+++1-2-120x120.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\avatar\1-2-120x120.png
+++1-3-120x120.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\avatar\1-3-120x120.png
+++1-1-768x546.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\large-size\1-1-768x546.jpg
+++2-1-370x270.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\medium-size\2-1-370x270.jpg
+++2-2-370x270.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\medium-size\2-2-370x270.jpg
+++1-1-70x70.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\small-size\1-1-70x70.png
+++1-2-70x70.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\small-size\1-2-70x70.png
+++1-3-70x70.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\blog\small-size\1-3-70x70.png
+++1-1-1919x388.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\breadcrumb\bg\1-1-1919x388.jpg
+++1-1920x886.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\error-404\bg\1-1920x886.png
+++1-1-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\medium-size\1-1-270x300.jpg
+++1-1-112x124.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\small-size\1-1-112x124.png
+++1-2-112x124.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\small-size\1-2-112x124.png
+++1-3-112x124.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\product\small-size\1-3-112x124.png
+++earphones.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\earphones.png
+++home.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\home.png
+++message.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\message.png
+++phone.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\phone.png
+++plane.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\plane.png
+++shield.png
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\shipping\icon\shield.png
+++1-270x300.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\sidebar\banner\1-270x300.jpg
+++2-1.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\bg\2-1.jpg
+++2-1-960x741.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\slide-img\2-1-960x741.jpg
+++2-2-960x741.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\slide-img\2-2-960x741.jpg
+++2-3-960x741.jpg
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\assets\images\slider\slide-img\2-3-960x741.jpg
+++materialdesignicons.min.css.map
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\wwwroot\admin\vendors\mdi\css\materialdesignicons.min.css.map
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (3.1.25)
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:>1470
+++AccountController.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\controllers\accountcontroller.cs
+++Account
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\account\
+++Register.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\account\register.cshtml
+++AppUser.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\models\appuser.cs
+++20220605193325_createdIdentity.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220605193325_createdidentity.cs
+++20220605193325_createdIdentity.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220605193325_createdidentity.designer.cs
+++20220605194051_addAppUser.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220605194051_addappuser.cs
+++20220605194051_addAppUser.Designer.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\migrations\20220605194051_addappuser.designer.cs
+++RegisterVM.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewmodels\registervm.cs
+++Login.cshtml
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\views\account\login.cshtml
+++LoginVM.cs
+i:{d1d90587-41c7-4eb9-b575-3c27d7c3ffef}:c:\users\ali\source\repos\backend 1.task\backend 1.task\viewmodels\loginvm.cs

@@ -26,9 +26,13 @@ namespace BackEnd_1.Task.Services
             return await _context.Settings.FirstOrDefaultAsync();
         }
 
+
+
         public async Task<BasketVM> GetBasket()
         {
-            string basketStr = _httpContextAccessor.HttpContext.Request.Cookies["Basket"];
+            string basketStr = _httpContextAccessor.HttpContext.Request.Cookies["Cart"];
+            
+
             BasketVM basketData = new BasketVM();
 
             if (!string.IsNullOrEmpty(basketStr))

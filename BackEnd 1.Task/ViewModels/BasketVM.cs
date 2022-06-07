@@ -9,13 +9,14 @@ namespace BackEnd_1.Task.ViewModels
 
         [Column(TypeName = "decimal(6,2")]
         public decimal TotalPrice { get; set; }
-        
-        public int Count { get; set; }
 
+        public int Count { get; set; }
 
         public BasketVM()
         {
             BasketItems = new List<BasketItemVM>();
         }
+
+
     }
 }

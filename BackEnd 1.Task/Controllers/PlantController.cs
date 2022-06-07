@@ -13,6 +13,111 @@ namespace BackEnd_1.Task.Controllers
 {
     public class PlantController : Controller
     {
+
+        //private readonly AppDbContext _context;
+
+        //public PlantController(AppDbContext context)
+        //{
+        //    _context = context;
+        //}
+
+        //public async Task<IActionResult> DeleteBasket(int id)
+        //{            
+        //    string basketStr = HttpContext.Request.Cookies["Basket"];
+
+        //    List<BasketCookiesItemsVM> basketvm;
+
+        //    if (!string.IsNullOrEmpty(basketStr))
+        //    {
+
+        //        basketvm = JsonConvert.DeserializeObject<List<BasketCookiesItemsVM>>(basketStr);
+
+        //        BasketCookiesItemsVM existedCookie = basketvm.FirstOrDefault(ec => ec.Id == id);
+
+        //        if (existedCookie != null)
+        //        {
+
+        //            basketvm.Remove(existedCookie);
+        //            basketStr = JsonConvert.SerializeObject(basketvm);
+        //        }
+
+        //    }
+
+        //    HttpContext.Response.Cookies.Append("Basket", basketStr);
+
+        //    return RedirectToAction("Index", "Home");
+
+        //}
+
+        //private readonly AppDbContext _context;
+
+        //public PlantController(AppDbContext context)
+        //{
+        //    _context = context;
+        //}
+
+        //public async Task<IActionResult> AddBasket(int id)
+        //{
+        //    string basketStr = HttpContext.Request.Cookies["Cart"];
+
+        //    Plant plant = await _context.Plants.FirstOrDefaultAsync(pl=>pl.Id == id);
+        //    if(plant == null) return NotFound();
+
+        //    List<BasketCookiesItemsVM> basket;
+
+        //    if (string.IsNullOrEmpty(basketStr))
+        //    {
+        //        basket = new List<BasketCookiesItemsVM>();
+
+        //        BasketCookiesItemsVM cookie = new BasketCookiesItemsVM
+        //        {
+        //            Id = plant.Id,
+        //            Count = 1
+        //        };
+
+        //        basket.Add(cookie);
+
+        //        basketStr = JsonConvert.SerializeObject(basket);
+
+
+
+        //    }
+
+        //    else
+        //    {
+        //        basket = JsonConvert.DeserializeObject<List<BasketCookiesItemsVM>>(basketStr);
+
+        //        BasketCookiesItemsVM existedCookie = basket.FirstOrDefault(bc=>bc.Id == plant.Id);
+
+        //        if(existedCookie == null)
+
+        //        {
+        //            BasketCookiesItemsVM cookie = new BasketCookiesItemsVM
+        //            {
+        //                Id = plant.Id,
+        //                Count = 1
+        //            };
+
+        //            basket.Add(cookie);
+
+
+
+        //        }
+
+        //        else
+        //        {
+        //            existedCookie.Count++;
+        //        }
+
+        //        basketStr = JsonConvert.SerializeObject(basket);
+
+
+        //    }
+        //    HttpContext.Response.Cookies.Append("Cart", basketStr);
+
+        //    return RedirectToAction("Index", "Home");
+        //}
+
         private readonly AppDbContext _context;
 
         public PlantController(AppDbContext context)
@@ -20,94 +125,64 @@ namespace BackEnd_1.Task.Controllers
             _context = context;
         }
 
-
-
-
-        public IActionResult DeleteBasket(int id)
+        public async Task<IActionResult> AddBASKET(int id)
         {
-
-            if (Request.Cookies["Basket"] != null)
-            {
-                Response.Cookies.Delete("Basket");
-            }
-
-              return RedirectToAction("Index", "Home");
-        }
-
-
-
-
-        public async Task<IActionResult> AddBasket(int id)
-        {
-            Plant plant = await _context.Plants.FirstOrDefaultAsync(pc => pc.Id == id);
+            Plant plant = await _context.Plants.FirstOrDefaultAsync(pl=>pl.Id == id);
             if (plant == null) return NotFound();
 
+            string basketStr = HttpContext.Request.Cookies["Cart"];
 
-            string basketStr = HttpContext.Request.Cookies["Basket"];
-
-            List<BasketCookiesItemsVM> basketvm;
-
-
-
-
+            List<BasketCookiesItemsVM> basket;
 
             if (string.IsNullOrEmpty(basketStr))
             {
-                basketvm = new List<BasketCookiesItemsVM>();
+                basket = new List<BasketCookiesItemsVM>();
 
-                BasketCookiesItemsVM cookie = new BasketCookiesItemsVM
+                BasketCookiesItemsVM basketCookie = new BasketCookiesItemsVM
                 {
                     Id = plant.Id,
                     Count = 1
-
                 };
 
+                basket.Add(basketCookie);
 
-                basketvm.Add(cookie);
-                basketStr = JsonConvert.SerializeObject(basketvm);
+                basketStr = JsonConvert.SerializeObject(basket);
+
+
+
             }
 
             else
             {
+                basket = JsonConvert.DeserializeObject<List<BasketCookiesItemsVM>>(basketStr);
 
-
-                basketvm = JsonConvert.DeserializeObject<List<BasketCookiesItemsVM>>(basketStr);
-
-                BasketCookiesItemsVM existedCookie = basketvm.FirstOrDefault(ec => ec.Id == plant.Id);
+                BasketCookiesItemsVM existedCookie = basket.FirstOrDefault(ec=>ec.Id == plant.Id);
 
                 if (existedCookie == null)
                 {
-
                     BasketCookiesItemsVM cookie = new BasketCookiesItemsVM
                     {
                         Id = plant.Id,
                         Count = 1
-
                     };
 
-                    basketvm.Add(cookie);
+                    basket.Add(cookie);
+
                 }
+
                 else
                 {
                     existedCookie.Count++;
                 }
 
+                basketStr = JsonConvert.SerializeObject(basket);
 
-
-
-                basketStr = JsonConvert.SerializeObject(basketvm);
+                
             }
 
-            HttpContext.Response.Cookies.Append("Basket", basketStr);
+            HttpContext.Response.Cookies.Append("Cart",basketStr);
 
-            return RedirectToAction("Index", "Home");
-        }
-
-        public ActionResult ShowBasket()
-        {
-
-            return Content(HttpContext.Request.Cookies["Basket"]);
-
+            return RedirectToAction("Index","Home");
 
         }
     }

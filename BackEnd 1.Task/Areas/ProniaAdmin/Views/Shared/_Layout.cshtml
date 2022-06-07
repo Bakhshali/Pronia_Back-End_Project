@@ -167,14 +167,26 @@
                             <span class="nav-profile-name">Louis Barnett</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-                            <a class="dropdown-item">
-                                <i class="mdi mdi-settings text-primary"></i>
-                                Settings
-                            </a>
-                            <a class="dropdown-item">
-                                <i class="mdi mdi-logout text-primary"></i>
-                                Logout
-                            </a>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a class="dropdown-item" @User.Identity.Name> </a>
+                                <a class="dropdown-item">
+                                    <i class="mdi mdi-logout text-primary"></i>
+                                    Logout
+                                </a>
+                            }
+                            else
+                            {
+                                <a class="dropdown-item" asp-controller = "account" asp-action = "login">
+                                    
+                                    Login
+                                </a>
+                                <a class="dropdown-item" asp-controller = "account" asp-action = "register">
+                                   
+                                    Register
+                                </a>
+                            }
+
                         </div>
                     </li>
                 </ul>
@@ -207,7 +219,7 @@
                                 <li class="nav-item"> <a class="nav-link" asp-controller="Category" asp-action="Index">Category</a></li>
                                 <li class="nav-item"> <a class="nav-link" asp-controller="Slider" asp-action="Index">Slider</a></li>
                                 <li class="nav-item"> <a class="nav-link" asp-controller="Plant" asp-action="Index">Plant</a></li>
-                                
+
                             </ul>
                         </div>
                     </li>
@@ -280,7 +292,7 @@
     <!-- page-body-wrapper ends -->
     <!-- container-scroller -->
     <!-- plugins:js -->
-   
+
     <script src="~/admin/vendors/base/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page-->

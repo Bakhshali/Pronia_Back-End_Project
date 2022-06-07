@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+@model RegisterVM
+<div class="login-register-area section-space-y-axis-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+            <div class="col-lg-6 pt-5 pt-lg-0">
+                <form method="post">
+                    <div class="login-form">
+                        <h4 class="login-title">Register</h4>
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <label>First Name</label>
+                                <input asp-for="FirstName" placeholder="FirstName" /> <br />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <label>Last Name</label>
+                                <input asp-for="LastName" placeholder="LastName" /> <br />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label>UsernName</label>
+                                <input asp-for="Username" placeholder="UserName" /> <br />
+                                <span asp-validation-for="Username" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-12">
+                                <label>Email Address*</label>
+                                <input asp-for="Email" placeholder="Email Address" /> <br />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Password</label>
+                                <input asp-for="Password" placeholder="Password" /> <br />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Confirm Password</label>
+                                <input asp-for="ConfirmPassword" placeholder="Confirm Password" /> <br />
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                            <div class="check-box">
+                                <input asp-for="Condition" id="condition" />
+                                <label for="condition">I have agree <a style = "color: blue">terms&conditions</a> </label>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit"
+                                        class="btn btn-custom-size lg-size btn-pronia-primary mt-3">
+                                    Register
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
