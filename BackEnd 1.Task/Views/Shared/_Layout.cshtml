@@ -133,7 +133,7 @@
                                                 @if (User.Identity.IsAuthenticated)
                                                 {
                                                     <li>
-                                                        <a class="dropdown-item">@User.Identity.Name</a>
+                                                        <a class="dropdown-item" asp-controller = "account" asp-action="edit" >@User.Identity.Name</a>
                                                     </li>
                                                       <li>
                                                         <a class="dropdown-item" asp-controller = "account" asp-action = "logout">Log out</a>

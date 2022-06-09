@@ -29,7 +29,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "BackEnd 1.Task/1.0.0": {
+      "BackEnd_1.ProniaProject/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.Identity.Owin": "2.2.3",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.25",
@@ -304,10 +304,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "BackEnd 1.Task.dll": {}
+          "BackEnd_1.ProniaProject.dll": {}
         },
         "compile": {
-          "BackEnd 1.Task.dll": {}
+          "BackEnd_1.ProniaProject.dll": {}
         }
       },
       "Microsoft.AspNet.Identity.Core/2.2.3": {
@@ -3966,7 +3966,7 @@
     }
   },
   "libraries": {
-    "BackEnd 1.Task/1.0.0": {
+    "BackEnd_1.ProniaProject/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

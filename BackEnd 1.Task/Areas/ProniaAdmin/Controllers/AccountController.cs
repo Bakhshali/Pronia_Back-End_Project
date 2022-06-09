@@ -67,9 +67,41 @@ namespace BackEnd_1.Task.Areas.ProniaAdmin.Controllers
         public async Task<IActionResult> Login(LoginVM adminLogin)
         {
 
-            return View();
-        } 
+            AppUser user = await _userManager.FindByNameAsync(adminLogin.Username);
+             if (user==null) return View();
 
-        
+            if (adminLogin.RememberMe)
+            {
+                Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user, adminLogin.Password, true, true);
+
+                if (!result.Succeeded)
+                {
+                    ModelState.AddModelError("", "Username ve ya Password-nuz yanlisdir");
+                    return View();
+                }
+            }
+            else
+            {
+                Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(user, adminLogin.Password, false, true);
+
+                if (!result.Succeeded)
+                {
+                    if (result.IsLockedOut)
+                    {
+                        ModelState.AddModelError("", "Sifreni 3 defe yanlis girdiyiniz ucun, 5 deqiqe muddetinde bloklandiniz!");
+                        return View();
+                    }
+                    ModelState.AddModelError("", "Username ve ya Password-nuz yanlisdir");
+                    return View();
+                }
+            }
+            return View();
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login", "Account");
+        }
+
     }
 }

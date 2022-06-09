@@ -164,13 +164,13 @@
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
                             <img src="~/admin/images/faces/face5.jpg" alt="profile" />
-                            <span class="nav-profile-name">Louis Barnett</span>
+                            <span class="nav-profile-name">@User.Identity.Name</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
                             @if (User.Identity.IsAuthenticated)
                             {
-                                <a class="dropdown-item" @User.Identity.Name> </a>
-                                <a class="dropdown-item">
+                                <a class="dropdown-item" asp-controller = "account" asp-action = "edit" ><i style="color:blue" class="fa-regular fa-pen-to-square"></i>Edit </a>
+                                <a class="dropdown-item" asp-controller="account" asp-action="logout">
                                     <i class="mdi mdi-logout text-primary"></i>
                                     Logout
                                 </a>

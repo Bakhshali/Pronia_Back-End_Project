@@ -1,33 +1,18 @@
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.exe
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.deps.json
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.runtimeconfig.json
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.runtimeconfig.dev.json
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.dll
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.pdb
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.Views.dll
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd 1.Task.Views.pdb
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.csproj.AssemblyReference.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.AssemblyInfoInputs.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.AssemblyInfo.cs
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.csproj.CoreCompileInputs.cache
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.RazorAssemblyInfo.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.RazorAssemblyInfo.cs
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd 1.Task.StaticWebAssets.Manifest.cache
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.TagHelpers.input.cache
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.TagHelpers.output.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.RazorCoreGenerate.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.RazorTargetAssemblyInfo.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.RazorTargetAssemblyInfo.cs
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.Views.pdb
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.dll
-C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.pdb
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.genruntimeconfig.cache
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd 1.Task.csproj.CopyComplete
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -189,3 +174,19 @@ C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\Owin.dll
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Areas\ProniaAdmin\Views\Account\Register.cshtml.g.cs
 C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Areas\ProniaAdmin\Views\Account\Login.cshtml.g.cs
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.exe
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.deps.json
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.runtimeconfig.json
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.runtimeconfig.dev.json
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.dll
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.pdb
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.Views.dll
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\bin\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.Views.pdb
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd_1.ProniaProject.StaticWebAssets.Manifest.cache
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.TagHelpers.input.cache
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.TagHelpers.output.cache
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.Views.pdb
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.dll
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\BackEnd_1.ProniaProject.pdb
+C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\obj\Debug\netcoreapp3.1\Razor\Views\Account\Edit.cshtml.g.cs

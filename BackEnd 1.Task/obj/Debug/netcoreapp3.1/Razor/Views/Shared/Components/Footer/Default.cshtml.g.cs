@@ -21,13 +21,20 @@ using BackEnd_1.Task.ViewModels;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\Views\_ViewImports.cshtml"
+using BackEnd_1.ProniaProject.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Ali\source\repos\BackEnd 1.Task\BackEnd 1.Task\Views\_ViewImports.cshtml"
 using BackEnd_1.Task.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ff35e9ad40b8ad3ff59fc1e38da548c8b8a0a921", @"/Views/Shared/Components/Footer/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"988ca680bec4cf4c415c5aa84777861c40f391f9", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5f22cb915fc8404179a043bd69b3c9c980662136", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components_Footer_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Setting>>
     #nullable disable
@@ -70,7 +77,7 @@ using BackEnd_1.Task.Models;
                                 <div class=""footer-widget-logo"">
                                     <a href=""index.html"">
                                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ff35e9ad40b8ad3ff59fc1e38da548c8b8a0a9214884", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ff35e9ad40b8ad3ff59fc1e38da548c8b8a0a9215089", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -274,7 +281,7 @@ WriteAttributeValue("", 4188, Model.FirstOrDefault(s=>s.Key.ToLower().Trim()=="d
                             <div class=""payment-method"">
                                 <a href=""#"">
                                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ff35e9ad40b8ad3ff59fc1e38da548c8b8a0a92116317", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ff35e9ad40b8ad3ff59fc1e38da548c8b8a0a92116522", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
